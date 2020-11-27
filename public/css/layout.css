@@ -196,6 +196,11 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
+#about h3 {
+  font: 18px/26px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
 #about p {
    line-height: 30px;
    color: #ccc;
