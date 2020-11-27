@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import ParticlesBg  from "particles-bg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 class Header extends Component {
   render() {
 
     if(this.props.data){
-       var project = this.props.data.project;
+       var discord = this.props.data.discord;
        var github = this.props.data.github;
       var name = this.props.data.name;
       var description= this.props.data.description;
@@ -38,8 +40,8 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={discord} target="_blank" className="button btn project-btn"><FontAwesomeIcon icon={faDiscord} /> Join us on Discord!</a>
+               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Twitter</a>
             </ul>
          </div>
       </div>
