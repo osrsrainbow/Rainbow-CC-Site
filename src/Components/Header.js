@@ -16,7 +16,7 @@ class Header extends Component {
     return (
       <header id="home">
       <video playsInline autoPlay muted loop>
-        <source src="/Pride_Flag.webm" type="video/webm" />
+        <source src="/images/Pride_Flag.webm" type="video/webm" />
       </video>
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -37,7 +37,7 @@ class Header extends Component {
             <hr />
             <ul className="social">
                <a href={discord} target="_blank" className="button btn project-btn"><FontAwesomeIcon icon={faDiscord} />Join us on Discord!</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Twitter</a>
+               {/* <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Twitter</a> */}
             </ul>
          </div>
       </div>
