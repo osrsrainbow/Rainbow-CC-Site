@@ -18,6 +18,7 @@ class Events extends Component {
               <img src="/images/events/screenie2.png" />
               <img src="/images/events/screenie3.png" />
               <img src="/images/events/screenie4.png" />
+              <img src="/images/events/screenie5.png" />
             </Carousel>
           </div>
         </div>
